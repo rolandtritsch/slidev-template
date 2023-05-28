@@ -37,12 +37,12 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build slides
-        run: slidev build --base '/slidev-elixirconfeu-2023-lightening-talk-pbt/' pbt.md
+        run: slidev build --base '/slidev-template/' slides.md
       - name: Fix dist
         run: |
-          mkdir ./dist/slidev-elixirconfeu-2023-lightening-talk-pbt
-          cp -r ./dist/assets ./dist/slidev-elixirconfeu-2023-lightening-talk-pbt/assets
-          cp -r ./dist/images ./dist/slidev-elixirconfeu-2023-lightening-talk-pbt/images
+          mkdir ./dist/slidev-template
+          cp -r ./dist/assets ./dist/slidev-template/assets
+          cp -r ./dist/images ./dist/slidev-template/images
       - name: Setup pages
         uses: actions/configure-pages@v3
       - name: Upload pages
