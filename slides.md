@@ -272,7 +272,7 @@ layout: section
 
 ---
 
-# Local image
+# Local image (I)
 
 ![working][]
 
@@ -286,7 +286,7 @@ layout: section
 
 ---
 
-# Local image tag
+# Local image (II)
 
 <img src="/images/working.jpg" style="float:right; margin:auto" width="20%" hspace="5%" vspace="1%"/>
 
@@ -298,9 +298,21 @@ layout: section
 
 ---
 
-# Local image tag (II)
+# Local image tag (III)
 
 <img src="/images/working.jpg" class="m-40 h-40 rounded shadow" />
+
+* Slide bullet text
+* Slide bullet text
+* Slide bullet text
+
+---
+
+# Local image tag (IV)
+
+<div class="flex h-80 justify-center">
+  <img src="/images/working.jpg" class="rounded shadow" />
+</div>
 
 * Slide bullet text
 * Slide bullet text
