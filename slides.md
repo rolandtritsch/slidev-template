@@ -338,25 +338,6 @@ And this is a bullet list ...
 
 ---
 
-# Icons
-
-<mdi-account-circle /> - ??? <br/>
-<carbon-badge /> - ??? <br/>
-<uim-rocket /> - ??? <br/>
-<twemoji-cat-with-tears-of-joy /> - ??? <br/>
-<logos-vue /> - ??? <br/>
-
-View more/all [icons][] ... like ...
-
-<mi-circle-add />
-<mi-circle-remove />
-<mi-circle-check />
-<mi-circle-error />
-<mi-circle-help />
-<mi-circle-information />
-
-[icons]: https://icones.js.org
-
 ---
 
 # Diagrams
